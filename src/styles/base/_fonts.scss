@@ -1,0 +1,35 @@
+/*******************************
+FONT IMPORTS
+********************************/
+
+@font-face {
+    font-family: 'openSansBold';
+    src: url('./fonts/opensans-bold-webfont.woff') format('woff2'),
+        url('./fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'openSansExtraBold';
+    src: url('./fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+        url('./fonts/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'openSansRegular';
+    src: url('./fonts/opensans-regular-webfont.woff2') format('woff2'),
+        url('./fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'openSansSemiBold';
+    src: url('./fonts/opensans-semibold-webfont.woff2') format('woff2'),
+        url('./fonts/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
