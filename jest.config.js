@@ -5,7 +5,6 @@ module.exports = {
   },
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
-    '^.+\\.tsx?$': 'ts-jest',
     '^.+\\.svg$': 'jest-svg-transformer',
   },
 }

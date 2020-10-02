@@ -1,11 +1,9 @@
-import * as React from 'react'
+import React from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { Provider as ReduxProvider } from 'react-redux'
 import { render } from '@testing-library/react'
-import '@testing-library/jest-dom'
 import { store } from '../redux/store'
-
-const initialState = {}
+import '@testing-library/jest-dom'
 
 const testWrapper = ({ children }) => {
   return (
@@ -15,7 +13,8 @@ const testWrapper = ({ children }) => {
   )
 }
 
-const testRender = (ui) => render(ui, { wrapper: testWrapper })
+const testRender = (ui, options) =>
+  render(ui, { wrapper: testWrapper, ...options })
 
 export * from '@testing-library/react'
 
